@@ -13,11 +13,11 @@ ENV TITLE=Inkscape
 RUN \
   echo "**** install packages ****" && \
   if [ -z ${INKSCAPE_VERSION+x} ]; then \
-    INKSPACE_VERSION=$(curl -sL "http://dl-cdn.alpinelinux.org/alpine/v3.18/community/x86_64/APKINDEX.tar.gz" | tar -xz -C /tmp \
+    INKSCAPE_VERSION=$(curl -sL "http://dl-cdn.alpinelinux.org/alpine/v3.18/community/x86_64/APKINDEX.tar.gz" | tar -xz -C /tmp \
     && awk '/^P:inkscape$/,/V:/' /tmp/APKINDEX | sed -n 2p | sed 's/^V://'); \
   fi && \
   apk add --no-cache \
-    inkscape==${INKSPACE_VERSION} && \
+    inkscape==${INKSCAPE_VERSION} && \
   sed -i 's|</applications>|  <application title="*Inkscape" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   rm -rf \
