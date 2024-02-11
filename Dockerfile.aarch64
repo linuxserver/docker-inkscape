@@ -11,6 +11,10 @@ LABEL maintainer="thelamer"
 ENV TITLE=Inkscape
 
 RUN \
+  echo "**** add icon ****" && \
+  curl -o \
+    /kclient/public/icon.png \
+    https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/inkscape-logo.png && \
   echo "**** install packages ****" && \
   if [ -z ${INKSCAPE_VERSION+x} ]; then \
     INKSCAPE_VERSION=$(curl -sL "http://dl-cdn.alpinelinux.org/alpine/v3.19/community/x86_64/APKINDEX.tar.gz" | tar -xz -C /tmp \
@@ -18,7 +22,6 @@ RUN \
   fi && \
   apk add --no-cache \
     inkscape==${INKSCAPE_VERSION} && \
-  sed -i 's|</applications>|  <application title="*Inkscape" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
