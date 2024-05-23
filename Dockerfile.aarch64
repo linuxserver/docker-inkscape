@@ -21,7 +21,10 @@ RUN \
     && awk '/^P:inkscape$/,/V:/' /tmp/APKINDEX | sed -n 2p | sed 's/^V://'); \
   fi && \
   apk add --no-cache \
-    inkscape==${INKSCAPE_VERSION} && \
+    inkscape==${INKSCAPE_VERSION} \
+    py3-appdirs \
+    py3-gobject3 \
+    py3-requests && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
