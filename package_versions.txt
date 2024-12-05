@@ -809,7 +809,7 @@ perl-yaml-tiny                                                                1.
 pixman                                                                        0.43.2-r0                                           apk                         
 pkgconf                                                                       2.2.0-r0                                            apk                         
 poppler                                                                       24.02.0-r1                                          apk                         
-poppler-glib                                                                  24.02.0-r1                                          apk                         
+poppler-glib                                                                  24.02.0-r2                                          apk                         
 poppler-utils                                                                 24.02.0-r1                                          apk                         
 potrace                                                                       1.16-r2                                             apk                         
 procps-ng                                                                     4.0.4-r0                                            apk                         
