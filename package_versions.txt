@@ -41,7 +41,7 @@ catatonit                                                                     0.
 cdparanoia-libs                                                               10.2-r14                                apk                         
 certifi                                                                       2025.4.26                               python                      
 cfdisk                                                                        2.41-r9                                 apk                         
-cffi                                                                          1.17.1                                  python                      
+cffi                                                                          2.0.0                                   python                      
 charset-normalizer                                                            3.4.2                                   python                      
 cli                                                                           UNKNOWN                                 binary                      
 cli-32                                                                        UNKNOWN                                 binary                      
@@ -52,12 +52,12 @@ cloud.google.com/go/logging                                                   v1
 cloud.google.com/go/longrunning                                               v0.5.5                                  go-module                   
 cmake                                                                         3.31.7-r1                               apk                         
 code.cloudfoundry.org/clock                                                   v1.1.0                                  go-module                   
-containerd                                                                    2.1.3-r1                                apk                         
+containerd                                                                    2.1.3-r2                                apk                         
 coreutils                                                                     9.7-r1                                  apk                         
 coreutils-env                                                                 9.7-r1                                  apk                         
 coreutils-fmt                                                                 9.7-r1                                  apk                         
 coreutils-sha512sum                                                           9.7-r1                                  apk                         
-cryptography                                                                  45.0.6                                  python                      
+cryptography                                                                  45.0.7                                  python                      
 cups-libs                                                                     2.4.11-r0                               apk                         
 curl                                                                          8.14.1-r1                               apk                         
 dario.cat/mergo                                                               v1.0.1                                  go-module  (+2 duplicates)  
@@ -66,12 +66,12 @@ dbus-daemon-launch-helper                                                     1.
 dbus-libs                                                                     1.16.2-r1                               apk                         
 dbus-x11                                                                      1.16.2-r1                               apk                         
 dmesg                                                                         2.41-r9                                 apk                         
-dnspython                                                                     2.7.0                                   python                      
-docker                                                                        28.3.3-r1                               apk                         
-docker-cli                                                                    28.3.3-r1                               apk                         
-docker-cli-buildx                                                             0.24.0-r1                               apk                         
-docker-cli-compose                                                            2.36.2-r1                               apk                         
-docker-engine                                                                 28.3.3-r1                               apk                         
+dnspython                                                                     2.8.0                                   python                      
+docker                                                                        28.3.3-r2                               apk                         
+docker-cli                                                                    28.3.3-r2                               apk                         
+docker-cli-buildx                                                             0.24.0-r2                               apk                         
+docker-cli-compose                                                            2.36.2-r2                               apk                         
+docker-engine                                                                 28.3.3-r2                               apk                         
 double-conversion                                                             3.3.1-r0                                apk                         
 dunst                                                                         1.12.2-r0                               apk                         
 dunstify                                                                      1.12.2-r0                               apk                         
@@ -714,11 +714,11 @@ partx                                                                         2.
 pasimple                                                                      0.0.3                                   python                      
 pciutils                                                                      3.13.0-r1                               apk                         
 pciutils-libs                                                                 3.13.0-r1                               apk                         
-pcmflux                                                                       1.0.4                                   python                      
+pcmflux                                                                       1.0.5                                   python                      
 pcre2                                                                         10.43-r1                                apk                         
 pillow                                                                        11.3.0                                  python                      
 pip                                                                           25.0.1                                  python                      
-pixelflux                                                                     1.3.2                                   python                      
+pixelflux                                                                     1.3.3                                   python                      
 pixman                                                                        0.46.4-r0                               apk                         
 pkgconf                                                                       2.4.3-r0                                apk                         
 platformdirs                                                                  4.2.2                                   python                      
@@ -750,7 +750,7 @@ py3-requests-pyc                                                              2.
 py3-urllib3                                                                   1.26.20-r0                              apk                         
 py3-urllib3-pyc                                                               1.26.20-r0                              apk                         
 pyc                                                                           3.12.11-r0                              apk                         
-pycparser                                                                     2.22                                    python                      
+pycparser                                                                     2.23                                    python                      
 pyee                                                                          13.0.0                                  python                      
 pygobject                                                                     3.52.3                                  python                      
 pylibsrtp                                                                     0.12.0                                  python                      
@@ -764,7 +764,7 @@ readline                                                                      8.
 requests                                                                      2.32.5                                  python                      
 resenje.org/singleflight                                                      v0.4.3                                  go-module                   
 rhash-libs                                                                    1.4.5-r0                                apk                         
-runc                                                                          1.3.0-r2                                apk                         
+runc                                                                          1.3.0-r3                                apk                         
 runuser                                                                       2.41-r9                                 apk                         
 scanelf                                                                       1.3.8-r1                                apk                         
 selkies                                                                       0.0.0                                   python                      
@@ -790,7 +790,7 @@ sqlite-libs                                                                   3.
 ssl_client                                                                    1.37.0-r19                              apk                         
 st                                                                            0.9.2-r0                                apk                         
 startup-notification                                                          0.12-r8                                 apk                         
-stdlib                                                                        go1.24.6                                go-module  (+7 duplicates)  
+stdlib                                                                        go1.24.7                                go-module  (+7 duplicates)  
 sudo                                                                          1.9.17_p2-r0                            apk                         
 tags.cncf.io/container-device-interface                                       v1.0.1                                  go-module  (+2 duplicates)  
 tags.cncf.io/container-device-interface/specs-go                              v1.0.0                                  go-module  (+1 duplicate)   
@@ -825,6 +825,7 @@ x264-libs                                                                     0.
 x265-libs                                                                     3.6-r0                                  apk                         
 xauth                                                                         1.1.3-r0                                apk                         
 xcb-util                                                                      0.4.1-r3                                apk                         
+xclip                                                                         0.13-r3                                 apk                         
 xdg-utils                                                                     1.2.1-r1                                apk                         
 xdotool                                                                       3.20211022.1-r1                         apk                         
 xf86-video-amdgpu                                                             23.0.0-r3                               apk                         
