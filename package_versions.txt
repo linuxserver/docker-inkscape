@@ -15,9 +15,9 @@ alsa-lib                                                                      1.
 aom-libs                                                                      3.12.1-r0                               apk                         
 apk-tools                                                                     2.14.9-r3                               apk                         
 appdirs                                                                       1.4.4                                   python                      
-at-spi2-core                                                                  2.56.4-r0                               apk                         
-at-spi2-core-lang                                                             2.56.4-r0                               apk                         
-at-spi2-core-libs                                                             2.56.4-r0                               apk                         
+at-spi2-core                                                                  2.56.5-r0                               apk                         
+at-spi2-core-lang                                                             2.56.5-r0                               apk                         
+at-spi2-core-libs                                                             2.56.5-r0                               apk                         
 atkmm2.28                                                                     2.28.4-r1                               apk                         
 attrs                                                                         25.3.0                                  python                      
 autocommand                                                                   2.2.2                                   python                      
@@ -57,7 +57,7 @@ coreutils                                                                     9.
 coreutils-env                                                                 9.7-r1                                  apk                         
 coreutils-fmt                                                                 9.7-r1                                  apk                         
 coreutils-sha512sum                                                           9.7-r1                                  apk                         
-cryptography                                                                  45.0.7                                  python                      
+cryptography                                                                  46.0.1                                  python                      
 cups-libs                                                                     2.4.11-r0                               apk                         
 curl                                                                          8.14.1-r1                               apk                         
 dario.cat/mergo                                                               v1.0.1                                  go-module  (+2 duplicates)  
@@ -550,8 +550,8 @@ lib2geom                                                                      1.
 libapk2                                                                       2.14.9-r3                               apk                         
 libarchive                                                                    3.8.1-r0                                apk                         
 libasyncns                                                                    0.8-r4                                  apk                         
-libatk-1.0                                                                    2.56.4-r0                               apk                         
-libatk-bridge-2.0                                                             2.56.4-r0                               apk                         
+libatk-1.0                                                                    2.56.5-r0                               apk                         
+libatk-bridge-2.0                                                             2.56.5-r0                               apk                         
 libattr                                                                       2.5.2-r2                                apk                         
 libblkid                                                                      2.41-r9                                 apk                         
 libbsd                                                                        0.12.2-r0                               apk                         
@@ -727,9 +727,9 @@ poppler-glib                                                                  25
 potrace                                                                       1.16-r2                                 apk                         
 procps-ng                                                                     4.0.4-r3                                apk                         
 procps-ng-lang                                                                4.0.4-r3                                apk                         
-prometheus-client                                                             0.22.1                                  python                      
+prometheus-client                                                             0.23.1                                  python                      
 propcache                                                                     0.3.2                                   python                      
-psutil                                                                        7.0.0                                   python                      
+psutil                                                                        7.1.0                                   python                      
 pulseaudio                                                                    17.0-r5                                 apk                         
 pulseaudio-alsa                                                               17.0-r5                                 apk                         
 pulseaudio-lang                                                               17.0-r5                                 apk                         
@@ -755,7 +755,7 @@ pyee                                                                          13
 pygobject                                                                     3.52.3                                  python                      
 pylibsrtp                                                                     0.12.0                                  python                      
 pynput                                                                        1.8.1                                   python                      
-pyopenssl                                                                     25.2.0                                  python                      
+pyopenssl                                                                     25.3.0                                  python                      
 python-xlib                                                                   0.33                                    python                      
 python3                                                                       3.12.11-r0                              apk                         
 python3-pyc                                                                   3.12.11-r0                              apk                         
